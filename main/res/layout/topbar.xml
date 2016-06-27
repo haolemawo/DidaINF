@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/colorPrimary"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/topical"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/topical_text_bg"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="热点"
+            android:textColor="#fff"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/entertainment"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/entertainment_text_bg"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="娱乐"
+            android:textColor="#fff"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/lettres"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/lettres_text_bg"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="美文"
+            android:textColor="#fff"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/funny"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/funny_text_bg"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="搞笑"
+            android:textColor="#fff"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/jokes"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/jokes_text_bg"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="段子"
+            android:textColor="#fff"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/games"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/games_text_bg"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="游戏"
+            android:textColor="#fff"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+
+</LinearLayout>
